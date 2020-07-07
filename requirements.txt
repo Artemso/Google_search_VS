@@ -1,2 +1,2 @@
-bokeh
+matplotlib
 networkx

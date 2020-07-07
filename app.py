@@ -51,10 +51,9 @@ def main():
 	duct = make_search(sys.argv[1])
 	total.update(duct)
 	for x in range(1):
-		total = make_iteration(total)
-	print(total)
+		total.update(make_iteration(total))
 	visu = Visualise()
-	visu.visualise_graph(total)
+	visu.visualise_data(total)
 
 if __name__ == "__main__":
 	main()

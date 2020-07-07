@@ -6,8 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-bokeh = "*"
 networkx = "*"
+matplotlib = "*"
+"python.dateutil" = "*"
 
 [requires]
 python_version = "3.8"
